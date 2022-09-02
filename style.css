@@ -533,26 +533,24 @@ ul {
   background-image: url('images/form-shape.png');
   background-size: cover;
   background-repeat: no-repeat;
-  
- 
 }
 
 .first-section h2 {
   width: 801px;
-height: 56px;
-left: -213px;
-top: 4734px;
-font-family: serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #ffffff;
-margin-left: 620px;
-margin-top: 130px;  
+  height: 56px;
+  left: -213px;
+  top: 4734px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 620px;
+  margin-top: 130px;  
 }
 
 .first-section p {
@@ -571,8 +569,7 @@ margin-top: 130px;
   color: #ebebff;
   margin-left: 20px;
   margin-top: -30px;
-  
-}
+  }
 
 form {
   display: flex;
@@ -658,9 +655,9 @@ form {
 }
 
 .submit-data:active {
-  background-color: ##ffffff;
+  background-color: #ffffff;
   border-radius: 8px;
-  box-shadow:##ffffff;
+  box-shadow: #ffffff;
   border-radius: 8px;
   transform: translateY(4px);
 }
