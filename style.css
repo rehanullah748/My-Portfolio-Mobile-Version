@@ -520,37 +520,42 @@ ul {
 }
 
 .first-section {
-  width: 375px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
   height: 779px;
   left: 0;
   top: 5410px;
   background: #6070ff;
   border-top-left-radius: 80px;
-}
-
-.first-section img {
-  width: 21px;
-  height: 21px;
-  left: 153px;
-  top: 4686px;
-  background: #7f8cff;
+  background-image: url('images/form-shape.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+ 
 }
 
 .first-section h2 {
   width: 801px;
-  height: 56px;
-  left: -213px;
-  top: 4734px;
-  font-family: sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-left: 70px;
-  padding-top: 50px;
+height: 56px;
+left: -213px;
+top: 4734px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+margin-left: 620px;
+margin-top: 130px;
+
+
+  
 }
 
 .first-section p {
@@ -563,21 +568,25 @@ ul {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #ebebff;
   margin-left: 20px;
+  margin-top: -30px;
+  
 }
 
 form {
   display: flex;
   flex-direction: column;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 
 .name {
   left: 16px;
   top: calc(50% - 18px / 2);
-  font-family: "poppins", Times, serif;
+  font-family: "poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -595,7 +604,7 @@ form {
   left: 16px;
   right: 38px;
   top: calc(50% - 18px / 2);
-  font-family: "poppins", Times, serif;
+  font-family: "poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -615,7 +624,6 @@ form {
   right: 1px;
   top: 1px;
   bottom: 1px;
-  margin-left: 20px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
@@ -627,7 +635,7 @@ form {
 .submit-data {
   width: 120px;
   height: 50px;
-  margin: 20px 10px 10px 20px;
+  margin: 20px 10px 10px 1px;
   padding: 20px auto;
   border-radius: 8px;
   font-family: "poppins", Times, serif;
@@ -646,11 +654,15 @@ form {
 }
 
 .submit-data:hover {
-  background-color: rgb(165, 150, 150);
+  background-color:#FFFFFF;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
 }
 
 .submit-data:active {
-  background-color: rgb(182, 159, 159);
-  box-shadow: 0 5px rgb(184, 160, 160);
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  box-shadow:#FFFFFF;
+  border-radius: 8px;
   transform: translateY(4px);
 }
