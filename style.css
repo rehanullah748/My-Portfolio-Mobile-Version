@@ -550,12 +550,9 @@ line-height: 52px;
 display: flex;
 align-items: center;
 text-align: center;
-color: #FFFFFF;
+color: #ffffff;
 margin-left: 620px;
-margin-top: 130px;
-
-
-  
+margin-top: 130px;  
 }
 
 .first-section p {
@@ -655,15 +652,15 @@ form {
 }
 
 .submit-data:hover {
-  background-color:#FFFFFF;
+  background-color:#ffffff;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
 .submit-data:active {
-  background-color: #FFFFFF;
+  background-color: ##ffffff;
   border-radius: 8px;
-  box-shadow:#FFFFFF;
+  box-shadow:##ffffff;
   border-radius: 8px;
   transform: translateY(4px);
 }
