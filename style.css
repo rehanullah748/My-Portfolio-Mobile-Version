@@ -548,9 +548,9 @@ ul {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin-left: 620px;
-  margin-top: 130px;  
+  margin-top: 130px;
 }
 
 .first-section p {
@@ -569,7 +569,7 @@ ul {
   color: #ebebff;
   margin-left: 20px;
   margin-top: -30px;
-  }
+}
 
 form {
   display: flex;
@@ -649,15 +649,14 @@ form {
 }
 
 .submit-data:hover {
-  background-color:#ffffff;
+  background-color:#fff;
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
 
 .submit-data:active {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 8px;
-  box-shadow: #ffffff;
-  border-radius: 8px;
+  box-shadow: #fff;
   transform: translateY(4px);
 }
